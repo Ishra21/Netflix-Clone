@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container  {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('./images/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_small.jpg');
+    /* background-image: url(./images/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_small.jpg); */
+    border-bottom: 10px solid rgb(100, 97, 97);
+}
+
+
+ .navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding-inline: 80px;
+    padding-block: 30px;
+
+ } 
+
+ .navbar span button {
+
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    
+ } 
+
+ .navbar img 
+ {
+    width: 30%;
+ }
+#sign-btn {
+    color: white;
+    background-color: red;
+}
+ 
+.text-section {
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* line-height: 40px; */
+    /* margin-top: 80px; */
+}
+
+.text-section h1 {
+    font-size: 40px ;
+    line-height: 60px;
+
+}
+
+.text-section h6 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.text-section p {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.text-section span input {
+    width: 200px;
+    height: 35px;
+    background-color: rgba(55, 51, 51, 0.873);
+    padding-left: 10px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.text-section span button {
+    width: 200px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.second-container {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-bottom: 10px solid rgb(82, 76, 76);
+}
+
+.right-part {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-part {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-part h1 {
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.left-part p {
+    line-height: 40px;
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 50px;
+    padding-inline: 80px;
+}
+
+
+.Third-container {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* align-items: center; */
+    border-bottom: 10px solid rgb(82, 76, 76);
+    align-items: flex-start;
+}
+
+.left-part {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-part {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-part h1 {
+    line-height: 60px;
+     font-size: 30px;
+    font-weight: 500;
+    /* padding-inline: 40px; */
+
+}
+
+.right-part p {
+    line-height: 40px;
+    font-size: 10px;
+    font-weight: 200;
+    /* margin-left: 50px; */
+    /* padding-block: 30px; */
+    /* padding-inline: 40px; */
+}
+
+
+.left-part img {
+    width: 50%;
+    height: 300px;
+}
+
+
+
+.Fourth-container {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-bottom: 10px solid rgb(82, 76, 76);
+}
+
+.right-part {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-part {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-part h1 {
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.left-part p {
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    /* margin-left: 50px; */
+    /* padding-block: 30px; */
+    /* padding-inline: 80px; */
+}
+
+.right-part video {
+    width: 50%;
+    height: 300px;
+}
+
+
+.Fifth-container {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* align-items: center; */
+    border-bottom: 10px solid rgb(82, 76, 76);
+    align-items: flex-start;
+}
+
+.left-part {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-part {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-part h1 {
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+   line-height: 50px;
+
+}
+
+.right-part p {
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    /* margin-left: 50px; */
+    /* padding-block: 30px; */
+    /* padding-inline: 40px; */
+}
+
+
+.left-part img {
+    width: 50%;
+    height: 300px;
+}
+
+.Faq-section{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid grey;
+    padding-block: 20px;
+}
+
+.Faq-section h1 {
+    font-size: 35px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.faq-part {
+    height: auto ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 40px;
+}
+
+.faq-box{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(61, 60, 60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.faq-box span {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    padding-inline: 20px;
+}
+
+
+.footer-section {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+#spn {
+    width: 30%;
+    height: 60px;
+}
+
+.footer-section ul li a{
+    color: white;
+    line-height: 40px;
+}
+.faq-box:hover{
+    background-color: gray;
+}
+
+
+/* Responsive Mobile css */
+
+
+@media (max-width: 480px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar{
+        width: 100%;
+        height: auto;
+        padding-inline: 20px;
+        padding-block: 20px;
+    }
+
+    .navbar img{
+        width: 30%;
+    }
+    .navbar span button{
+        width: 100px;
+    }
+
+    .text-section{
+        width: 100%;
+        height: 450px;
+        margin-top: 0px;
+    }
+    .text-section h1{
+        font-size: 32px;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .text-section h6{
+        font-size: 28px;
+        text-align: center;
+    }
+    .text-section p{
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+
+    .text-section span{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .text-section span input{
+        width: 70%;
+    }
+
+    .second-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-block: 40px;
+    }
+
+    .left-part{
+        width: 100%;
+        height: auto;
+        padding-block: 20px;
+    }
+    .left-part br{
+        display: none;
+    }
+
+
+    .right-part{
+        width: 100%;
+        height: auto;
+    }
+
+    .Third-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-block: 40px;
+    }
+    .Fourth-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-block: 40px;
+    }
+
+    .Fifth-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-block: 40px;
+    }
+    .faq-box span {
+    font-size: 20px;
+    }
+
+    .footer-section {
+        /* padding: 30px; */
+        flex-wrap: wrap;
+        padding: 20px;
+        line-height: 20px;
+    }
+
+}
