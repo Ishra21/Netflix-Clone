@@ -350,10 +350,19 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 50px;
+    /* justify-content: center; */
 }
 #spn {
     width: 30%;
     height: 60px;
+}
+.footer-section button{
+    height: 40px;
+    width: 150px;
+    background-color: #0F0F0F;
+    color: white;
+    border: 1px solid black;
+    font-size: 16px;
 }
 
 .footer-section ul li a{
